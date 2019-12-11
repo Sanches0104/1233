@@ -1,0 +1,80 @@
+.marka-box {
+  padding: 7rem 2rem 0rem 2rem;
+}
+.marka-box p {
+  line-height: 30px;
+  font-weight: 600;
+}
+.marka-box .text-haslo {
+  font-weight: normal;
+  font-family: 'Pacifico', cursive;
+  color: #bf1e2d;
+  font-style: italic;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+}
+.text-milk-edge {
+  margin-top: 1rem;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-description {
+  margin-top: 2rem;
+}
+.description-brand-text {
+  color: #262162;
+  margin-top: 3rem;
+}
+.img-description {
+  width: 50%;
+}
+.title-haslo {
+  margin-top: 1rem;
+  color: #262162;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.img-description img {
+  margin-top: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .description-reverse {
+    flex-direction: row-reverse;
+  }
+  .description-brand-text {
+    margin: 0;
+  }
+  .description {
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .marka-box {
+    padding: 0 8rem;
+  }
+  .description-brand-text {
+    font-size: 1.2rem;
+    line-height: 21px;
+  }
+  .main-box p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .marka-box {
+    padding: 7rem 17rem 2rem;
+  }
+  .description-brand-text {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .description img {
+    margin-top: 3rem;
+  }
+}

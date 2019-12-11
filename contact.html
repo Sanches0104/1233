@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Заголовок</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="box__header">
+        <div class="header__body">
+          <a href="#" class="header__logo">
+            <img src="./img/LogoS.png" alt="" />
+          </a>
+          <div class="header__burger">
+            <span> </span>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li>
+                <a href="index.html" class="header__link">Головна</a>
+              </li>
+              <li>
+                <a href="marka.html" class="header__link">Власна ТМ</a>
+              </li>
+              <li>
+                <a href="logistic.html" class="header__link">Послуги</a>
+              </li>
+
+              <li>
+                <a href="trade.html" class="header__link">Торгівля</a>
+              </li>
+              <li>
+                <a href="contact.html" class="header__link">Контакти</a>
+              </li>
+              <li>
+                <a href="about-us.html" class="header__link">Про нас</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main-contact-box">
+      <article class="contacts-article">
+        <h3 class="title-about ">КОНТАКТНІ ДАННІ</h3>
+        <h4 class="title-contact-mini">ТЕЛЕФОН:</h4>
+        <span class="number-text">
+          <a href="”tel:+380(0372)523390”">+380(0372)52 33 90</a>
+        </span>
+        <h4 class="title-contact-mini">EMAIL:</h4>
+        <span class="email-text">fresh_group@ukr.net</span>
+        <span class="email-text">logistics_fresh@ukr.net</span>
+        <span class="email-text">buh.fresh.group@gmail.com</span>
+        <h4 class="title-contact-mini">РОЗТАШУВАННЯ:</h4>
+        <span class="map-text">
+          м.Чернівці вул.Артема 33
+        </span>
+        <a
+          class="link-adress-contact"
+          target="_blank"
+          href="https://goo.gl/maps/g2E7VrzEeexinuuZA"
+          >Показати на карті</a
+        >
+      </article>
+      <article class="feedback-article">
+        <h3 class="title-about ">ЗВОРОТНІЙ ЗВЯЗОК</h3>
+        <div class="form-container">
+          <div class="fields">
+            <form class="ajax-contact-form" action="">
+              <p class="input-boxes">
+                <i class="icon icon-name"></i>
+                <input
+                  class="input-icon name-icon"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="ПІБ"
+                  required
+                />
+              </p>
+              <p class="input-boxes">
+                <i class="icon icon-phone"></i>
+                <input
+                  class="input-icon telephone-icon"
+                  type="tel"
+                  name="tel"
+                  value=""
+                  placeholder="Телефон"
+                  required
+                />
+              </p>
+              <p class="input-boxes">
+                <i class="icon icon-mail"></i>
+                <input
+                  class="input-icon mail-icon"
+                  type="email"
+                  name="email"
+                  value=""
+                  placeholder="Електронна пошта"
+                  required
+                />
+              </p>
+              <p class="input-boxes">
+                <textarea
+                  class="textarea input-icon text-icon"
+                  name="message"
+                  cols="40"
+                  rows="3"
+                  placeholder="Ваше повідомлення"
+                ></textarea>
+              </p>
+              <input
+                type="submit"
+                name="submit"
+                class="form-container__btn"
+                value="надіслати"
+              />
+            </form>
+          </div>
+        </div>
+      </article>
+    </main>
+    <article class="map-article">
+      <h3 class="title-about ">НАШЕ РОЗТАШУВАННЯ</h3>
+      <iframe
+        class="map-contact"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4460.576650485819!2d25.93611088600259!3d48.33602417556008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473407ec29eb608d%3A0x7c0529ca3b3b5b4!2z0YPQuy4g0JzQsNC60YHQuNC80LAg0JrRgNC40LLQvtC90L7RgdCwLCAzMywg0KfQtdGA0L3QvtCy0YbRiywg0KfQtdGA0L3QvtCy0LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNTgwMDA!5e0!3m2!1sru!2sua!4v1575795345206!5m2!1sru!2sua"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+      ></iframe>
+    </article>
+
+    <footer class="footer ">
+      <div class="row">
+        <ul class=" col-12 col-md-6 footer-contacts-menu">
+          <h3 class="logo-footer">КОНТАКТИ</h3>
+          <li class="menu-item-footer phone-footer">380(0372)52 33 90</li>
+          <li class="menu-item-footer mail-footer">fresh_group@ukr.net</li>
+          <li class="menu-item-footer adress-footer">
+            м.Чернівці вул.Артема 33
+          </li>
+        </ul>
+        <ul class=" col-12 col-md-6 footer-info-menu">
+          <h3 class="logo-footer info-logo-footer">ІНФОРМАЦІЯ</h3>
+          <li class="menu-item-footer"><a href="">Про нас</a></li>
+          <li class="menu-item-footer"><a href="">Власна ТМ</a></li>
+          <li class="menu-item-footer"><a href="">Наші перевезення</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/contactform.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

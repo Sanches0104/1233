@@ -1,0 +1,242 @@
+.main-contact-box {
+  padding: 5.1rem 2rem 1rem;
+}
+.main-contact-box p,
+span {
+  line-height: 25px;
+  font-weight: 600;
+}
+.contacts-article {
+  color: #262162;
+}
+.title-contact-mini {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.link-adress-contact {
+  display: block;
+  font-weight: bold;
+  color: #bf1e2d;
+  font-size: 1.2rem;
+}
+.feedback-article {
+  margin-top: 3.2rem;
+}
+span {
+  display: block;
+}
+.title-communic {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+.input-icon {
+  border: 1px solid #262162;
+}
+.form-container {
+  margin-top: 1.2rem;
+}
+.input-icon {
+  width: 13.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.textarea {
+  resize: none;
+  width: 15.8rem;
+  font-family: 'Roboto', sans-serif;
+}
+.input-boxes {
+  display: flex;
+  margin-top: 15px;
+}
+.text-icon {
+  background-size: 36px;
+  background-repeat: no-repeat;
+  padding: 3px 3px 3px 45px;
+  background-image: url(../img/PismoB36.png);
+}
+.form-container__btn {
+  display: block;
+  background-color: #262162;
+  padding: 13px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+.form-container__btn:hover {
+  background-color: #bf1e2d;
+}
+.icon {
+  display: block;
+  background-image: url(../img/PismoB36.png);
+  width: 36px;
+  height: 36px;
+}
+.feedback-article h3::after {
+  width: 240px;
+}
+.contacts-article h3::after {
+  width: 220px;
+}
+.map-article {
+  margin-top: 3.2rem;
+}
+.icon-name {
+  background-image: url(../img/UserB36.png);
+}
+.icon-phone {
+  background-image: url(../img/PhoneB36.png);
+}
+.icon-mail {
+  background-image: url(../img/MailB36.png);
+}
+.input-icon:focus {
+  border: 2px solid #bf1e2d;
+}
+.input-icon {
+  outline: none;
+}
+.map-contact {
+  margin-top: 1.2rem;
+  width: 100%;
+}
+.email-text {
+  margin-top: 5px;
+}
+.number-text,
+.email-text,
+.map-text {
+  font-size: 1.1rem;
+}
+.map-article h3 {
+  text-align: center;
+}
+.map-article h3::after {
+  width: 278px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .feedback-article h3 {
+    text-align: center;
+  }
+  .feedback-article h3::after {
+    width: 238px;
+    margin: 0 auto;
+  }
+  .contacts-article h3::after {
+    width: 220px;
+  }
+  .main-contact-box {
+    padding: 7.1rem 4rem 0 4rem;
+  }
+  .main-contact-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .feedback-article {
+    margin: 0;
+  }
+  .title-contact-mini {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+  }
+  .link-adress-contact {
+    margin-top: 1rem;
+  }
+  .number-text,
+  .email-text,
+  .map-text {
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+  }
+  .input-icon {
+    width: 19.7rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .textarea {
+    width: 22rem;
+    padding-left: 45px;
+  }
+}
+.number-text a {
+  color: #262162;
+}
+@media screen and (min-width: 920px) {
+  .feedback-article h3::after {
+    width: 330px;
+  }
+  .map-article h3 {
+    font-size: 2.5rem;
+  }
+  .map-article h3::after {
+    width: 445px;
+  }
+  .contacts-article h3::after {
+    width: 310px;
+  }
+  .map-contact {
+    height: 25rem;
+  }
+  .text-icon {
+    background-size: 56px;
+    background-image: url(../img/PismoB56.png);
+  }
+  .icon {
+    background-image: url(../img/PismoB56.png);
+    width: 56px;
+    height: 56px;
+  }
+  .icon-name {
+    background-image: url(../img/UserB56.png);
+  }
+  .icon-phone {
+    background-image: url(../img/PhoneB56.png);
+  }
+  .icon-mail {
+    background-image: url(../img/MailB56.png);
+  }
+  .input-boxes {
+    margin-top: 20px;
+  }
+  .main-contact-box {
+    padding: 8.1rem 4rem 0 4rem;
+  }
+  .contacts-article h3,
+  .feedback-article h3 {
+    font-size: 35px;
+  }
+  .main-contact-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .feedback-article {
+    margin: 0;
+  }
+  .title-contact-mini {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .link-adress-contact {
+    margin-top: 1.5rem;
+  }
+  .number-text,
+  .email-text,
+  .map-text {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  .input-icon {
+    width: 23rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  .textarea {
+    width: 26.5rem;
+    padding-left: 73px;
+  }
+}

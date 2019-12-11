@@ -1,0 +1,38 @@
+.about-us-box {
+  padding: 2rem 3rem 1rem 3rem;
+  margin: 0px auto;
+}
+.about-us-box p {
+  line-height: 25px;
+  font-weight: 600;
+}
+.article-about-us {
+  margin-top: 2rem;
+}
+.text-about-kompany {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .about-us-box {
+    padding: 5rem 1rem 1rem 1rem;
+  }
+  .about-us-box p {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .about-us-box {
+    padding: 5rem 26rem 1rem 26rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .about-us-box {
+    padding: 5rem 26rem 1rem 26rem;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .about-us-box {
+    padding: 5rem 26rem 1rem 26rem;
+  }
+}

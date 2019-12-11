@@ -1,0 +1,77 @@
+.footer {
+  padding: 1rem 0;
+  background-color: #f8f6f7;
+  text-align: center;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logo-footer::after {
+  display: block;
+  content: '';
+  width: 170px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: red;
+}
+.logo-footer {
+  color: #262162;
+  font-size: 25px;
+  font-weight: bold;
+}
+.menu-item-footer {
+  text-decoration: none;
+  color: #262162;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.phone-footer::before {
+  display: inline-block;
+  content: '';
+  background-image: url(../img/PhoneR.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+  margin-right: 0.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.phone-footer {
+  margin-top: 20px;
+}
+.mail-footer::before {
+  display: inline-block;
+  content: '';
+  background-image: url(../img/MailR.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+  margin-right: 0.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.adress-footer::before {
+  display: inline-block;
+  content: '';
+  background-image: url(../img/LocationR.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+  margin-right: 0.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.menu-item-footer a {
+  color: #262162;
+}
+.info-logo-footer {
+  margin: 20px 0;
+}
+.menu-item-footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.map-footer {
+  margin-top: 20px;
+}

@@ -1,0 +1,10 @@
+.trade-box {
+  padding: 6rem 1rem 0rem;
+}
+.info-trade {
+  margin: 0 auto;
+}
+.btn-trade {
+  background-repeat: no-repeat;
+  background-image: url(../img/inhir.jpg);
+}

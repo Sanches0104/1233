@@ -1,0 +1,30 @@
+@import 'burger-menu.css' screen;
+@import 'main.css' screen;
+@import 'marka.css' screen;
+@import 'logistic.css' screen;
+@import 'contact.css' screen;
+@import 'about-us.css' screen;
+@import 'trade.css' screen;
+@import 'slider.css' screen;
+@import 'footer.css' screen;
+@import 'media-footer.css' screen;
+
+body {
+  min-width: 320px;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.owl-nav {
+  display: none;
+}
+p,
+h3,
+h4,
+h2 {
+  color: #262162;
+}

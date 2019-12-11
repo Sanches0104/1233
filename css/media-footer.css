@@ -1,0 +1,23 @@
+@media screen and (min-width: 478px) {
+  .logo-footer {
+    font-size: 30px;
+  }
+  .menu-item-footer {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    font-size: 30px;
+  }
+  .menu-item-footer {
+    font-size: 1.2rem;
+  }
+  .info-logo-footer {
+    margin: 0;
+  }
+  .menu-item-footer {
+    font-size: 1.5rem;
+  }
+}
