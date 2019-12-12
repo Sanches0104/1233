@@ -11,7 +11,7 @@
   color: #bf1e2d;
   font-style: italic;
   margin-top: 1rem;
-  padding-left: 2rem;
+  text-align: center;
   font-size: 1.8rem;
 }
 .text-milk-edge {
@@ -20,7 +20,7 @@
 .description {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .brand-description {
   margin-top: 2rem;
@@ -68,7 +68,8 @@
   .marka-box {
     padding: 7rem 17rem 2rem;
   }
-  .description-brand-text {
+  .description-brand-text,
+  .text-milk-edge {
     font-size: 1.2rem;
     line-height: 30px;
   }

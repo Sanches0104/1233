@@ -154,7 +154,7 @@
 @media (min-width: 320px) {
   .slide {
     height: 600px;
-    background-image: url(../img/Fura480-bg.jpg);
+    background-image: url(../img/slider/Fura480-bg.jpg);
   }
   .heading-primary-main {
     font-size: 45px;
@@ -172,7 +172,7 @@
   }
   .slide {
     height: 600px;
-    background-image: url(../img/Fura768-bg.jpg);
+    background-image: url(../img/slider/Fura768-bg.jpg);
   }
   .heading-primary-main {
     font-size: 70px;
@@ -261,21 +261,6 @@
   }
   .header__list li {
     margin: 0px 0px 20px 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 959px) {
-  .slide {
-    background-image: url(../img/Fura960-bg.jpg);
-  }
-}
-@media (min-width: 960px) and (max-width: 1199px) {
-  .slide {
-    background-image: url(../img/Fura1200-bg.jpg);
-  }
-}
-@media (min-width: 1200px) {
-  .slide {
-    background-image: url(../img/Fura1600-bg.jpg);
   }
 }
 

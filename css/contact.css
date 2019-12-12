@@ -54,7 +54,7 @@ span {
   background-size: 36px;
   background-repeat: no-repeat;
   padding: 3px 3px 3px 45px;
-  background-image: url(../img/PismoB36.png);
+  background-image: url(../img/icons/PismoB36.png);
 }
 .form-container__btn {
   display: block;
@@ -71,7 +71,7 @@ span {
 }
 .icon {
   display: block;
-  background-image: url(../img/PismoB36.png);
+  background-image: url(../img/icons/PismoB36.png);
   width: 36px;
   height: 36px;
 }
@@ -85,13 +85,13 @@ span {
   margin-top: 3.2rem;
 }
 .icon-name {
-  background-image: url(../img/UserB36.png);
+  background-image: url(../img/icons/UserB36.png);
 }
 .icon-phone {
-  background-image: url(../img/PhoneB36.png);
+  background-image: url(../img/icons/PhoneB36.png);
 }
 .icon-mail {
-  background-image: url(../img/MailB36.png);
+  background-image: url(../img/icons/MailB36.png);
 }
 .input-icon:focus {
   border: 2px solid #bf1e2d;
@@ -183,21 +183,21 @@ span {
   }
   .text-icon {
     background-size: 56px;
-    background-image: url(../img/PismoB56.png);
+    background-image: url(../img/icons/PismoB56.png);
   }
   .icon {
-    background-image: url(../img/PismoB56.png);
+    background-image: url(../img/icons/PismoB56.png);
     width: 56px;
     height: 56px;
   }
   .icon-name {
-    background-image: url(../img/UserB56.png);
+    background-image: url(../img/icons/UserB56.png);
   }
   .icon-phone {
-    background-image: url(../img/PhoneB56.png);
+    background-image: url(../img/icons/PhoneB56.png);
   }
   .icon-mail {
-    background-image: url(../img/MailB56.png);
+    background-image: url(../img/icons/MailB56.png);
   }
   .input-boxes {
     margin-top: 20px;

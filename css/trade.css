@@ -5,6 +5,55 @@
   margin: 0 auto;
 }
 .btn-trade {
+  padding-left: 20px;
   background-repeat: no-repeat;
-  background-image: url(../img/inhir.jpg);
+  background-image: url(../img/Colbasa.png);
+}
+.btn-trade p {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.mol-krai {
+  background-image: url(../img/sly/Milk2.png);
+}
+.jatran {
+  background-image: url(../img/sly/Sir.png);
+}
+.zlagoda {
+  background-image: url(../img/sly/Sir6.png);
+}
+.bimol {
+  background-image: url(../img/sly/Milk4.png);
+}
+.volo-pole {
+  background-image: url(../img/sly/Sir3.png);
+}
+.eko-product {
+  background-image: url(../img/sly/Milk3.png);
+}
+.zdorovo {
+  background-image: url(../img/sly/Sir4.png);
+}
+.import {
+  background-image: url(../img/sly/Tvorojok.png);
+}
+.mol-vizit {
+  background-image: url(../img/sly/Sir5.png);
+}
+.up-grade {
+  background-image: url(../img/sly/Klubnike.png);
+}
+.poljana-smaku {
+  background-image: url(../img/sly/Milk.png);
+}
+.slobojanu {
+  background-image: url(../img/sly/Sir2.png);
+}
+.mala-rogan {
+  background-image: url(../img/sly/Pizza.png);
+}
+.maslo-sir {
+  background-image: url(../img/sly/Sir6.png);
 }

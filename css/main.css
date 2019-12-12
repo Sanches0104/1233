@@ -57,7 +57,7 @@
 }
 .btn-show {
   display: block;
-  padding: 1rem;
+  padding: 1.1rem;
   margin-top: 10px;
 }
 .btn-show:first-child {
@@ -75,37 +75,38 @@
   width: 100%;
   display: flex;
   font-size: 19px;
+  align-items: center;
   color: #fff;
 
   background-color: #262162;
 }
 .el::before {
   float: left;
-  background-image: url(../img/OpenA.png);
+  background-image: url(../img/icons/arrowright.png);
   background-repeat: no-repeat;
   display: inline-block;
   content: '';
   background-size: 100%;
-  margin-right: 0.3rem;
+  margin-right: 0.7rem;
   width: 1.4rem;
   height: 1.4rem;
 }
 
 .red::before {
   float: left;
-  background-image: url(../img/right-fff.png);
+  background-image: url(../img/icons/arrowdown.png);
   background-repeat: no-repeat;
   display: inline-block;
   content: '';
   background-size: 100%;
-  margin-right: 0.3rem;
+  margin-right: 0.7rem;
   width: 1.4rem;
   height: 1.4rem;
 }
 
 @media screen and (min-width: 768px) {
   .main-box {
-    padding: 3rem;
+    padding: 4rem;
     display: flex;
     justify-content: space-between;
   }
@@ -120,7 +121,7 @@
   -webkit-filter: brightness(100%);
 }
 .home-demo .item {
-  -webkit-filter: brightness(50%);
+  -webkit-filter: brightness(70%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -136,49 +137,49 @@
 }
 
 .item-carousel-1 {
-  background-image: url(../img/Бимол.png);
+  background-image: url(../img/providers/BIMOL.png);
 }
 .item-carousel-2 {
-  background-image: url(../img/ВП.png);
+  background-image: url(../img/providers/VP.png);
 }
 .item-carousel-3 {
-  background-image: url(../img/ВР.png);
+  background-image: url(../img/providers/VR.png);
 }
 .item-carousel-4 {
-  background-image: url(../img/ВР2.png);
+  background-image: url(../img/providers/VR2.png);
 }
 .item-carousel-5 {
-  background-image: url(../img/Еко.png);
+  background-image: url(../img/providers/Eco.png);
 }
 .item-carousel-6 {
-  background-image: url(../img/Злагода.png);
+  background-image: url(../img/providers/Zlagoda.png);
 }
 .item-carousel-7 {
-  background-image: url(../img/МВ.png);
+  background-image: url(../img/providers/МВ.png);
 }
 .item-carousel-8 {
-  background-image: url(../img/МК.png);
+  background-image: url(../img/providers/МК.png);
 }
 .item-carousel-9 {
-  background-image: url(../img/МО.png);
+  background-image: url(../img/providers/MO.png);
 }
 .item-carousel-10 {
-  background-image: url(../img/ПАГРО.png);
+  background-image: url(../img/providers/pagro.png);
 }
 .item-carousel-11 {
-  background-image: url(../img/ХМСБ.png);
+  background-image: url(../img/providers/HMEL.png);
 }
 .item-carousel-12 {
-  background-image: url(../img/Yatran.png);
+  background-image: url(../img/providers/Yatran.png);
 }
 .item-carousel-13 {
-  background-image: url(../img/Mlekovita.png);
+  background-image: url(../img/providers/Mlekovita.png);
 }
 .item-carousel-14 {
-  background-image: url(../img/Lactima.png);
+  background-image: url(../img/providers/Lactima.png);
 }
 .item-carousel-15 {
-  background-image: url(../img/zdorovo.png);
+  background-image: url(../img/providers/zdorovo.png);
 }
 .title-partners {
   text-align: center;

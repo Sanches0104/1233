@@ -14,7 +14,11 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+    ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -31,11 +35,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="menu-jakor">
       <div class="box__header">
         <div class="header__body">
           <a href="#" class="header__logo">
-            <img src="./img/LogoS.png" alt="" />
+            <img src="./img/icons/LogoS.png" alt="" />
           </a>
           <div class="header__burger">
             <span> </span>
@@ -43,7 +47,7 @@
           <nav class="header__menu">
             <ul class="header__list">
               <li>
-                <a href="#" class="header__link">Головна</a>
+                <a href="index.html" class="header__link">Головна</a>
               </li>
               <li>
                 <a href="marka.html" class="header__link">Власна ТМ</a>
@@ -75,7 +79,7 @@
         </li>
         <!-- это экран -->
         <li class="sim-slider-element">
-          <img class="img-slider" src="./img/21.jpg" alt="0" />
+          <img class="img-slider" src="./img/slider/slider-sir.jpg" alt="0" />
         </li>
         <li class="sim-slider-element">
           <img
@@ -115,7 +119,7 @@
       </ul>
       <div class="sim-slider-arrow-left"></div>
       <div class="sim-slider-arrow-right"></div>
-      <div class="sim-slider-dots"></div>
+      <div class="sim-slider-dots" id="jakor"></div>
     </div>
     <main class="main-box row">
       <article class="col-12 col-md-6 about-us">
@@ -241,8 +245,33 @@
         </ul>
       </div>
     </footer>
+    <a href="#" class="scrollup">Наверх</a>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+          } else {
+            $('.scrollup').fadeOut();
+          }
+        });
 
+        $('.scrollup').click(function() {
+          $('html, body').animate({scrollTop: 0}, 600);
+          return false;
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(window).on('load', function() {
+        var $preloader = $('#p_prldr'),
+          $svg_anm = $preloader.find('.svg_anm');
+        $svg_anm.fadeOut();
+        $preloader.delay(500).fadeOut('slow');
+      });
+    </script>
     <!-- =============================== -->
+
     <script src="js/index.js"></script>
     <script src="js/about.js"></script>
     <script src="js/sly.js"></script>

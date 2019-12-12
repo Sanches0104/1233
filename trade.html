@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
@@ -25,7 +26,7 @@
       <div class="box__header">
         <div class="header__body">
           <a href="#" class="header__logo">
-            <img src="./img/LogoS.png" alt="" />
+            <img src="./img/icons/LogoS.png" alt="" />
           </a>
           <div class="header__burger">
             <span> </span>
@@ -45,10 +46,10 @@
                 <a href="trade.html" class="header__link">Торгівля</a>
               </li>
               <li>
-                <a href="#" class="header__link">Контакти</a>
+                <a href="contact.html" class="header__link">Контакти</a>
               </li>
               <li>
-                <a href="#" class="header__link">Про нас</a>
+                <a href="about-us.html" class="header__link">Про нас</a>
               </li>
             </ul>
           </nav>
@@ -56,79 +57,157 @@
       </div>
     </header>
     <main class="trade-box">
+      <h3 class="title-about">ПРОДУКЦІЯ, ЯКОЮ МИ ТОРГУЄМО:</h3>
       <article class="info-trade">
-        <button class="el btn-trade btn-show show">Молочний край</button>
+        <button class="el btn-trade btn-show show mol-krai">
+          <p>Молочний край</p>
+        </button>
 
         <div class="sly">
-          Товариство «ФРЕШ ГРУП» засновано у жовтні 2007 року. У 2010 році
-          запатентовано власну торгову марку. З 2013 року випускаємо продукцію
-          під власною торговою маркою «Молочний Край»
+          <ul>
+            <li>• Молоко</li>
+            <li>• Кефір</li>
+            <li>• Сметана</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Злагода
+        <button class="el btn-trade btn-show show zlagoda">
+          <p>Злагода</p>
         </button>
         <div class="sly">
-          Молочний Край - відбірна молочна продукція, яка виготовляється в
-          курортному місті Хмільник Вінницької області. Для виготовлення значної
-          частини молочних продуктів використовуються закваски різних видів,
-          додаються виключно натуральні складники від перевірених
-          постачальників. Після виготовлення готової продукції - повторний
-          лабораторний аналіз для забезпечення дотримання технологічних
-          процесів.
+          <ul>
+            <li>• Сирки глазуровані</li>
+            <li>• Сир</li>
+            <li>• Йогурти</li>
+            <li>• Молоко дитяче</li>
+            <li>• Сир творог</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Ятрань
+        <button class="el btn-trade btn-show show jatran">
+          <p>Ятрань</p>
         </button>
         <div class="sly">
-          Рефрижераторні перевезення продуктів, що швидко псуються, або ж
-          товару, який вимагає суворого дотримання температурного режиму. Для
-          нас важливо якісно підходити до перевезення довірених нам вантажів і
-          доставляти їх чітко в зазначений термін.
+          <ul>
+            <li>• Варені ковбаси</li>
+            <li>• Сосиски</li>
+            <li>• Копчені ковбаси</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Бімол
+        <button class="el btn-trade btn-show show bimol">
+          <p>Бімол</p>
         </button>
         <div class="sly">
-          Рефрижераторні перевезення продуктів, що швидко псуються, або ж
-          товару, який вимагає суворого дотримання температурного режиму. Для
-          нас важливо якісно підходити до перевезення довірених нам вантажів і
-          доставляти їх чітко в зазначений термін.
+          <ul>
+            <li>• Сири сулугіні</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Воложкове Поле
+        <button class="el btn-trade btn-show show volo-pole">
+          <p>Воложкове Поле</p>
         </button>
         <div class="sly">
-          Рефрижераторні перевезення продуктів, що швидко псуються, або ж
-          товару, який вимагає суворого дотримання температурного режиму. Для
-          нас важливо якісно підходити до перевезення довірених нам вантажів і
-          доставляти їх чітко в зазначений термін.
+          <ul>
+            <li>• Глазуровані сирки</li>
+            <li>• Йогурти</li>
+            <li>• Кефір</li>
+            <li>• Ряжанка</li>
+            <li>• Сметана</li>
+            <li>• Масло</li>
+            <li>• Молоко</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Еко Молокопродукт
+        <button class="el btn-trade btn-show show eko-product">
+          <p>Еко Молокопродукт</p>
         </button>
         <div class="sly">
-          Рефрижераторні перевезення продуктів, що швидко псуються, або ж
-          товару, який вимагає суворого дотримання температурного режиму. Для
-          нас важливо якісно підходити до перевезення довірених нам вантажів і
-          доставляти їх чітко в зазначений термін.
+          <ul>
+            <li>• Згущене молоко Варене</li>
+            <li>• Згущене молоко назбиране</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Здорово
+        <button class="el btn-trade btn-show show zdorovo">
+          <p>Здорово</p>
         </button>
         <div class="sly">
-          Рефрижераторні перевезення продуктів, що швидко псуються, або ж
-          товару, який вимагає суворого дотримання температурного режиму. Для
-          нас важливо якісно підходити до перевезення довірених нам вантажів і
-          доставляти їх чітко в зазначений термін.
+          <ul>
+            <li>• Кефір</li>
+            <li>• Молоко</li>
+            <li>• Сиркові маси</li>
+            <li>• Сметана</li>
+            <li>• Масло</li>
+            <li>• Сири тверді</li>
+          </ul>
         </div>
-        <button class="el btn-trade btn-show show">
-          Поляна Смаку
+        <button class="el btn-trade btn-show show import">
+          <p>Імпорт</p>
         </button>
         <div class="sly">
-          Рефрижераторні перевезення продуктів, що швидко псуються, або ж
-          товару, який вимагає суворого дотримання температурного режиму. Для
-          нас важливо якісно підходити до перевезення довірених нам вантажів і
-          доставляти їх чітко в зазначений термін.
+          <ul>
+            <li>• Тостові сири Lactima</li>
+            <li>• Сири Mlekovita</li>
+            <li>• Крем-сири Laciate</li>
+            <li>• Молоко UHT Laciate</li>
+          </ul>
+        </div>
+        <button class="el btn-trade btn-show show mol-vizit">
+          <p>Молочний Візит</p>
+        </button>
+        <div class="sly">
+          <ul>
+            <li>• Масло</li>
+            <li>• Сир твердий</li>
+          </ul>
+        </div>
+        <button class="el btn-trade btn-show show up-grade">
+          <p>Полісся агротрейд</p>
+        </button>
+        <div class="sly">
+          <ul>
+            <li>• Масло</li>
+            <li>• Сир</li>
+          </ul>
+        </div>
+        <button class="el btn-trade btn-show show poljana-smaku">
+          <p>Поляна Смаку</p>
+        </button>
+        <div class="sly">
+          <ul>
+            <li>• Закуска бутербродна</li>
+            <li>• Маргарин</li>
+          </ul>
+        </div>
+        <button class="el btn-trade btn-show show slobojanu">
+          <p>Слобожани</p>
+        </button>
+        <div class="sly">
+          <ul>
+            <li>• Десерти сметанкові зі смаками</li>
+            <li>• Сметана</li>
+            <li>• Маси сиркові</li>
+          </ul>
+        </div>
+        <button class="el btn-trade btn-show show mala-rogan">
+          <p>Мала Рогань</p>
+        </button>
+        <div class="sly">
+          <ul>
+            <li>• Творожна маса з смаками</li>
+            <li>• Сир кисломолочиний</li>
+          </ul>
+        </div>
+        <button class="el btn-trade btn-show show maslo-sir">
+          <p>Хмельницька Масло-Сир База</p>
+        </button>
+        <div class="sly">
+          <ul>
+            <li>• Масло</li>
+            <li>• Спред</li>
+            <li>• Сири копчені</li>
+            <li>• Сир-паста</li>
+            <li>• Сири плавлені</li>
+            <li>• Бринза</li>
+            <li>• Моцарелла</li>
+            <li>• Сир Адигейський</li>
+            <li>• Сири тверді</li>
+          </ul>
         </div>
       </article>
     </main>
@@ -161,19 +240,23 @@
         </ul>
       </div>
     </footer>
-    <!-- <script>
-    var elCollection = document.getElementsByClassName ('el');
-console.dir (elCollection);
-var elNodes = document.querySelectorAll ('.el');
-console.dir (elNodes);
-for (var i = 0; i < elCollection.length; i++) {
-  var elem = elCollection[i];
-  console.log (elem);
-  elem.addEventListener ('click', function () {
-    this.classList.toggle ('red');
-  });
-}
-</script> -->
+    <a href="#" class="scrollup">Наверх</a>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+          } else {
+            $('.scrollup').fadeOut();
+          }
+        });
+
+        $('.scrollup').click(function() {
+          $('html, body').animate({scrollTop: 0}, 600);
+          return false;
+        });
+      });
+    </script>
     <script src="js/index.js"></script>
     <script src="js/about.js"></script>
     <script src="js/sly.js"></script>

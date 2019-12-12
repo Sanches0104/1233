@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Заголовок</title>
+
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/bootstrap-grid.css" />
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
@@ -13,14 +14,17 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
+      <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
+
     <header class="header">
       <div class="box__header">
         <div class="header__body">
           <a href="#" class="header__logo">
-            <img src="./img/LogoS.png" alt="" />
+            <img src="./img/icons/LogoS.png" alt="" />
           </a>
           <div class="header__burger">
             <span> </span>
@@ -51,50 +55,80 @@
       </div>
     </header>
     <div class="slider-logistic">
-      <img class="none-img" src="img/Fura1600.jpg" alt="" />
-      <img class="block-img" src="img/Fura768.jpg" alt="" />
+      <img class="none-img" src="img/slider/Fura1600.jpg" alt="" />
+      <img class="block-img" src="img/slider/Fura768.jpg" alt="" />
     </div>
     <main class="logistic-main">
       <h3 class="title-about">ПРО НАШІ ПЕРЕВЕЗЕННЯ</h3>
-      <h3 class="title__trp">
-        Компанія Fresh Group швидкий та надійний партнер у вантажних
-        перевезеннях по Україні та Європі.
-      </h3>
+      <p class="descr__trp">
+        З 2013 року компанія «ФРЕШ ГРУП» розвиває паралельний напрям вантажних
+        рефрижераторних перевезень автомобільним транспортом до 23тонн (нетто).
+        У 2018 році стали учасником АсМАП (асоціації міжнародних автомобільних
+        перевізників), отримали міжнародну ліцензію на перевезення вантажів,
+        маємо можливість перевезень з дотриманням процедури МДП (TIR) та ЕКМТ.
+        За ці роки зарекомендували себе, як швидкий та надійний партнер у
+        вантажних перевезеннях по Україні та Європі. Виконуємо всі взяті на себе
+        зобов'язання та піклуємось про доставку та збереження вантажу. Відділ
+        логістики завжди запропонує оптимальний шлях для доставки Вашого вантажу
+        по Україні та Європі. Власний автопарк дозволяє надавати гнучку і
+        приємну цінову політику.
+      </p>
       <section class="first-section-logistic">
         <p class="descr__trp">
-          - Ми виконуєм всі взяті на себе зобов'язання та піклуємось про
-          збереження вантажу
+          - Ми перевозимо охолоджену та заморожену продукцію;
         </p>
         <p class="descr__trp">
-          - Персональний менеджер якнайшвидше запропонує оптимальний шлях для
-          доставки вантажу по Україні та Європі
+          - Відповідальне зберігання вантажу, дотримування температури та
+          безпеки;
         </p>
         <p class="descr__trp">
-          - Власний автопарк дозволяє надавати гнучку і приємну цінову політику
+          - Відстеження вантажу 24/7;
         </p>
+        <p class="descr__trp">
+          - Відповідність всім стандартам та санітарним нормам;
+        </p>
+        <p class="descr__trp">
+          - ЦМР-страхування вантажу.
+        </p>
+        <p class="descr__trp">
+        Наша компанія використовує тільки сертифікований транспорт для виконання
+        рефрижераторних перевезень. У компанії за цим стежать з особливою
+        відповідальністю, адже, в основному, це їжа для людей або ліки.
+        Перевезення рефрижераторами відповідає стандартам ATP, згідно,
+        Женевської угоди від 1 вересня 1970 р Сертифікат ATP (СПС) транспортного
+        засобу є обов’язковим для України і Європейського Союзу для перевезення
+        швидкопсувних товарів. У нас замовник може вибрати автотранспорт з
+        різним тоннажем і системою охолодження: по тоннажу до 20 тонн; щодо
+        забезпечення температурних вимог від – 20 до + 20 градусів за Цельсієм
+        протягом усього шляху слідування. Для логістики використовуються
+        спеціалізовані сертифіковані автотранспортні засоби з рефрижераторним та
+        ізотермічним обладнанням.        </p>
+        <h3 class="title__trp title__trp_second">ВІДПОВІДНІСТЬ ТРАНСПОРТУ САНІТАРНИМ ВИМОГАМ</h3>
+        <p class="descr__trp">
+        Перш за все – ми суворо дотримуємося санітарно-гігієнічні вимоги.
+        Рефрижератор завжди ідеально чистий – системна санітарна обробка
+        дозволяє відповідати всім санітарним вимогам. Високопрофесійні водії –
+        відповідально виконують свою роботу, завжди здорові і акуратні з
+        об’єктами транспортування.
+      </p>
+        <h3 class="title__trp title__trp_second">
+          ШВИДКІСТЬ ПЕРЕВЕЗЕННЯ ВАНТАЖІВ РЕФРИЖЕРАТОРАМИ
+        </h3>
+        <p class="descr__trp">
+        Величезне значення для ніжних і примхливих товарів має швидкість
+        доставки вантажу за місцем призначення і екологічна безпека. Наш
+        замовник, завжди, може відстежити місцезнаходження свого вантажу на
+        маршруті слідування за часом, температурою, контролювати виконання
+        тимчасових термінів доставки і температурних режимів в дорозі. Для більш
+        детальної консультації з приводу рефрижераторного перевезення заповніть
+        форму, і наш логіст зорієнтує Вас по всіх питаннях. </p>
+
         <button class="btn-about" data-action="open-modal">
           ПОДАТИ ЗАЯВКУ
         </button>
       </section>
-      <section class="second-section-logistic row">
-        <h3 class="title__trp">
-          Ми перевозимо охолоджену та заморожену продукцію
-        </h3>
-        <section class=" column-truck first-column">
-          <p class="descr__trp">
-            - Ми одні із лідерів перевезень в Чернівцях, нам довіряють найкращі
-          </p>
-          <p class="descr__trp">
-            - Дистрибуційна доставка вантажів по Україні в температурному режимі
-            -18 +5 C
-          </p>
-          <p class="descr__trp">
-            - Відповідальне зберігання вантажу, дотримування температури та
-            безпеки
-          </p>
-        </section>
         <section class=" column-truck second-column">
-          <img src="img/Fura.png" class="track__img" alt="Track" />
+          <img src="img/icons/Fura.png" class="track__img" alt="Track" />
           <h3 class="tite__descr__truck">Напівпричіп - Рефрижиратор</h3>
           <p class="descr__truck">
             Напівпричіп з вбудованою холодильною установкою (рефрижиратором).
@@ -154,6 +188,23 @@
         </form>
       </div>
     </div>
+    <a href="#" class="scrollup">Наверх</a>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+          } else {
+            $('.scrollup').fadeOut();
+          }
+        });
+
+        $('.scrollup').click(function() {
+          $('html, body').animate({scrollTop: 0}, 600);
+          return false;
+        });
+      });
+    </script>
     <script src="js/index.js"></script>
     <script src="js/about.js"></script>
     <script src="js/modal.js"></script>

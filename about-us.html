@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
@@ -20,7 +21,7 @@
       <div class="box__header">
         <div class="header__body">
           <a href="#" class="header__logo">
-            <img src="./img/LogoS.png" alt="" />
+            <img src="./img/icons/LogoS.png" alt="" />
           </a>
           <div class="header__burger">
             <span> </span>
@@ -33,7 +34,6 @@
               <li>
                 <a href="marka.html" class="header__link">Власна ТМ</a>
               </li>
-
               <li>
                 <a href="logistic.html" class="header__link">Послуги</a>
               </li>
@@ -41,10 +41,10 @@
                 <a href="trade.html" class="header__link">Торгівля</a>
               </li>
               <li>
-                <a href="#" class="header__link">Контакти</a>
+                <a href="contact.html" class="header__link">Контакти</a>
               </li>
               <li>
-                <a href="#" class="header__link">Про нас</a>
+                <a href="about-us.html" class="header__link">Про нас</a>
               </li>
             </ul>
           </nav>
@@ -187,6 +187,23 @@
         </ul>
       </div>
     </footer>
+    <a href="#" class="scrollup">Наверх</a>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+          } else {
+            $('.scrollup').fadeOut();
+          }
+        });
+
+        $('.scrollup').click(function() {
+          $('html, body').animate({scrollTop: 0}, 600);
+          return false;
+        });
+      });
+    </script>
     <script src="js/index.js"></script>
     <script src="js/about.js"></script>
   </body>

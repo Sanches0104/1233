@@ -26,7 +26,7 @@
 .phone-footer::before {
   display: inline-block;
   content: '';
-  background-image: url(../img/PhoneR.png);
+  background-image: url(../img/icons/PhoneR.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50%;
@@ -40,7 +40,7 @@
 .mail-footer::before {
   display: inline-block;
   content: '';
-  background-image: url(../img/MailR.png);
+  background-image: url(../img/icons/MailR.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50%;
@@ -52,7 +52,7 @@
 .adress-footer::before {
   display: inline-block;
   content: '';
-  background-image: url(../img/LocationR.png);
+  background-image: url(../img/icons/LocationR.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50%;
