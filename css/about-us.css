@@ -14,7 +14,7 @@
 }
 @media screen and (min-width: 768px) {
   .about-us-box {
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 6rem 5rem 1rem 5rem;
   }
   .about-us-box p {
     font-size: 1.2rem;
@@ -23,16 +23,11 @@
 }
 @media screen and (min-width: 980px) {
   .about-us-box {
-    padding: 5rem 26rem 1rem 26rem;
+    padding: 6rem 5rem 1rem 5rem;
   }
 }
 @media screen and (min-width: 1400px) {
   .about-us-box {
-    padding: 5rem 26rem 1rem 26rem;
-  }
-}
-@media screen and (min-width: 1800px) {
-  .about-us-box {
-    padding: 5rem 26rem 1rem 26rem;
+    padding: 6rem 10rem 1rem 10rem;
   }
 }

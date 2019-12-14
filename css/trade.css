@@ -1,16 +1,26 @@
 .trade-box {
-  padding: 6rem 1rem 0rem;
+  padding: 6rem 2rem 0rem;
 }
 .info-trade {
   margin: 0 auto;
+  margin-top: 2rem;
 }
+.trade-box h3 {
+  text-align: center;
+}
+/* .trade-box h3::after {
+  margin: 0 auto;
+  width: 20rem;
+} */
 .btn-trade {
   padding-left: 20px;
+  margin-top: 30px;
   background-repeat: no-repeat;
   background-image: url(../img/Colbasa.png);
 }
 .btn-trade p {
   color: white;
+  font-size: 13px;
   text-transform: uppercase;
   margin-left: 20px;
   font-weight: bold;
@@ -56,4 +66,30 @@
 }
 .maslo-sir {
   background-image: url(../img/sly/Sir6.png);
+}
+
+@media (min-width: 1020px) {
+
+  .trade-box {
+    padding-top: 8rem;
+  }
+}
+@media (min-width: 1080px) {
+  .btn-trade p {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+@media (min-width: 1300px) {
+  .trade-box {
+    padding: 8rem 15rem 0rem;
+  }
+}
+@media (min-width: 1600px) {
+  .trade-box {
+    padding: 8rem 25rem 0rem;
+  }
 }

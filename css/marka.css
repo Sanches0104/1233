@@ -1,6 +1,16 @@
 .marka-box {
   padding: 7rem 2rem 0rem 2rem;
 }
+.description-brand-text i {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text-milk-edge i {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .marka-box p {
   line-height: 30px;
   font-weight: 600;
@@ -22,9 +32,6 @@
   align-items: center;
   justify-content: space-between;
 }
-.brand-description {
-  margin-top: 2rem;
-}
 .description-brand-text {
   color: #262162;
   margin-top: 3rem;
@@ -33,7 +40,7 @@
   width: 50%;
 }
 .title-haslo {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #262162;
   font-size: 2rem;
   font-weight: bold;
@@ -54,7 +61,7 @@
 }
 @media screen and (min-width: 992px) {
   .marka-box {
-    padding: 0 8rem;
+    padding: 9rem 6rem;
   }
   .description-brand-text {
     font-size: 1.2rem;
@@ -66,7 +73,7 @@
 }
 @media screen and (min-width: 1300px) {
   .marka-box {
-    padding: 7rem 17rem 2rem;
+    padding: 10rem 17rem 2rem;
   }
   .description-brand-text,
   .text-milk-edge {

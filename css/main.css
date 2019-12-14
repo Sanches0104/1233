@@ -1,22 +1,22 @@
 .main-box {
-  padding: 4rem 1rem 1rem 1rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 .btn-about {
   margin-top: 2rem;
 }
 .main-box p {
-  font-weight: 600;
+  font-weight: 300;
 }
 .sly {
   display: none;
-  background-color: rgb(237, 237, 237);
   border: hsl(0, 0%, 75%) solid 1px;
   color: black;
   height: auto;
-  margin: 5px 0;
   padding: 10px;
   line-height: 25px;
-  border: 1px solid #bf1e2d;
+  border-left: 1px solid #262162;
+  border-right: 1px solid #262162;
+  border-bottom: 1px solid #262162;
   text-align: justify;
 }
 
@@ -28,13 +28,13 @@
   font-weight: bold;
   font-size: 25px;
 }
-.title-about::after {
+/* .title-about::after {
   display: block;
   content: '';
   width: 120px;
   height: 3px;
   background-color: #bf1e2d;
-}
+} */
 .contin-about {
   color: #bf1e2d;
   cursor: pointer;
@@ -110,6 +110,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .main-box p {
+    font-weight: 600;
+  }
   .el {
     width: 87%;
     margin: 0 auto;
@@ -178,26 +181,23 @@
 .item-carousel-14 {
   background-image: url(../img/providers/Lactima.png);
 }
-.item-carousel-15 {
-  background-image: url(../img/providers/zdorovo.png);
-}
 .title-partners {
   text-align: center;
 }
-.about-us h3::after {
+/* .about-us h3::after {
   width: 113px;
-}
-.title-partners::after {
+} */
+/* .title-partners::after {
   display: block;
   content: '';
   width: 215px;
   height: 3px;
   margin: 0 auto;
   background-color: #bf1e2d;
-}
-.footer-info-menu h3::after {
+} */
+/* .footer-info-menu h3::after {
   width: 208px;
-}
+} */
 @media screen and (min-width: 550px) {
   .home-demo .item {
     height: 150px;
@@ -215,12 +215,12 @@
   .title-about {
     font-size: 2rem;
   }
-  .title-about::after {
+  /* .title-about::after {
     width: 137px;
   }
   .title-partners::after {
     width: 255px;
-  }
+  } */
   .text-about-us {
     line-height: 30px;
     font-size: 1.2rem;
@@ -233,12 +233,12 @@
   .title-about {
     font-size: 2.5rem;
   }
-  .title-about::after {
+  /* .title-about::after {
     width: 170px;
   }
   .title-partners::after {
     width: 335px;
-  }
+  } */
   .btn-about {
     padding: 13px;
     font-size: 1.2rem;

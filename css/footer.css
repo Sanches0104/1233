@@ -4,14 +4,14 @@
   text-align: center;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
-.logo-footer::after {
+/* .logo-footer::after {
   display: block;
   content: '';
   width: 170px;
   height: 3px;
   margin: 0 auto;
   background-color: red;
-}
+} */
 .logo-footer {
   color: #262162;
   font-size: 25px;

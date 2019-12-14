@@ -17,16 +17,19 @@
       href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
       rel="stylesheet"
     />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
     <script src="js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="menu-jakor">
       <div class="box__header">
         <div class="header__body">
-          <a href="#" class="header__logo">
+          <a href="index.html" class="header__logo">
             <img src="./img/icons/LogoS.png" alt="" />
+          </a>
+          <a href="index.html" class="header__logo980">
+            <img class="logo-img-980" src="./img/icons/logoBIG.png" alt="" />
           </a>
           <div class="header__burger">
             <span> </span>
@@ -232,10 +235,14 @@
         </ul>
         <ul class=" col-12 col-md-6 footer-info-menu">
           <h3 class="logo-footer info-logo-footer">ІНФОРМАЦІЯ</h3>
-          <li class="menu-item-footer"><a href="about-us.html">Про нас</a></li>
-          <li class="menu-item-footer"><a href="marka.html">Власна ТМ</a></li>
           <li class="menu-item-footer">
-            <a href="logistic.html">Наші послуги</a>
+            <a href="about-us.html">Про нас</a>
+          </li>
+          <li class="menu-item-footer">
+            <a href="marka.html">Власна ТМ</a>
+          </li>
+          <li class="menu-item-footer">
+            <a href="testburg.html">Наші перевезення</a>
           </li>
         </ul>
       </div>
@@ -250,7 +257,6 @@
             $('.scrollup').fadeOut();
           }
         });
-
         $('.scrollup').click(function() {
           $('html, body').animate({scrollTop: 0}, 600);
           return false;

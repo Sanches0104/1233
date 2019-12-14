@@ -38,12 +38,15 @@
   z-index: 3;
   transition: all 400ms ease-out;
 }
+.header__logo980 {
+  display: none;
+}
 .header__logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transform: 1s;
 }
 .header__logo img {
-  width: 120%;
+  width: 130%;
 }
 .header__burger {
   display: none;
@@ -62,9 +65,13 @@
 }
 
 .header__link {
+  letter-spacing: 1px;
   color: #212121;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 23px;
+  line-height: 40px;
+  /* display: flex; */
+  /* justify-content: center; */
   text-decoration: none;
   font-weight: 700;
 }
@@ -87,7 +94,9 @@
 .content {
   padding: 100px 0px 0px 0px;
 }
+
 /* =====================ANIMATION==================== */
+
 .heading-anim {
   position: absolute;
   top: 40%;
@@ -97,9 +106,6 @@
   text-align: center;
 
   backface-visibility: hidden;
-  /* text-align: center;
-  top: 50%;
-  transform: translateY(200px); */
 }
 .heading-primary-main {
   display: block;
@@ -108,9 +114,6 @@
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-  /* 
-  animation-delay: 3s;
-  */
 }
 .heading-primary-sub {
   display: block;
@@ -248,7 +251,7 @@
     height: 100%;
     overflow: auto;
     background-color: #212121;
-    padding: 70px 10px 20px 10px;
+    padding: 100px 10px 20px 10px;
     transition: all 0.3s ease 0s;
   }
 
@@ -276,10 +279,50 @@
     font-size: 60px;
     letter-spacing: 10px;
   }
+  .header__link {
+    /* letter-spacing: 1px; */
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 15px;
+    /* line-height: 16px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-decoration: none;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 767px) {
   .content {
     padding: 70px 0px 0px 0px;
+  }
+}
+@media (min-width: 1020px) {
+  .header__logo img {
+    width: 170%;
+  }
+  .header__link {
+    font-size: 22px;
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__logo980 {
+    display: block;
+    z-index: 3;
+  }
+  .box__header {
+    padding: 10px;
+  }
+  .header__link {
+    /* letter-spacing: 1px; */
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 20px;
+    /* line-height: 16px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-decoration: none;
+    font-weight: 700;
   }
 }
